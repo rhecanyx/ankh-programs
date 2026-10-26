@@ -1,0 +1,18 @@
+[
+  {
+    "id": "photocraft",
+    "name": "PhotoCraft",
+    "upstream": "storytold/photocraft",
+    "description": "Katmanlar, maskeler ve PSD desteğiyle bağımsız fotoğraf düzenleyici.",
+    "license": "MIT OR Apache-2.0",
+    "guide": "Dosyayı indirdikten sonra Mac’te DMG’yi açıp uygulamayı Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. PhotoCraft ayrı uygulama olarak açılır; Ankh hesabını kullanmaz. Proje erken alfa aşamasındadır.",
+    "assets": [
+      {
+        "platform": "darwin",
+        "arch": "universal",
+        "suffix": "-macos-universal.dmg"
+      },
+      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+    ]
+  }
+]
