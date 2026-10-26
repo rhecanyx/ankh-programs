@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-26T17:16:30.499Z",
+  "programs": [
+    {
+      "id": "photocraft",
+      "name": "PhotoCraft",
+      "version": "0.16.0",
+      "description": "Katmanlar, maskeler ve PSD desteğiyle bağımsız fotoğraf düzenleyici.",
+      "license": "MIT OR Apache-2.0",
+      "guide": "Dosyayı indirdikten sonra Mac’te DMG’yi açıp uygulamayı Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. PhotoCraft ayrı uygulama olarak açılır; Ankh hesabını kullanmaz. Proje erken alfa aşamasındadır.",
+      "upstream": "storytold/photocraft",
+      "releaseUrl": "https://github.com/cnahmetcn/ankh-programs/releases/tag/photocraft-v0.16.0",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "photocraft-0.16.0-macos-universal.dmg",
+          "url": "https://github.com/cnahmetcn/ankh-programs/releases/download/untagged-f0b33cc1e839aa45b626/photocraft-0.16.0-macos-universal.dmg",
+          "size": 98985128,
+          "sha256": "489e00a7fd19f7e924a3a05ec33c7b057ea4766129b4eef132ce82ff42c10619"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "photocraft-0.16.0-windows-x64.msi",
+          "url": "https://github.com/cnahmetcn/ankh-programs/releases/download/untagged-f0b33cc1e839aa45b626/photocraft-0.16.0-windows-x64.msi",
+          "size": 74760192,
+          "sha256": "1a073b3ce410cd68bed8c1e5d63f825a8cb578c78106bd54e598d8b07edb6982"
+        }
+      ]
+    }
+  ]
+}
