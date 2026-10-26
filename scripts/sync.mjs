@@ -58,17 +58,20 @@ for (const config of programs) {
     const tag = `${config.id}-v${version}`;
     const existing = previous.programs.find((p) => p.id === config.id);
     if (existing?.version === version) {
+      const before = JSON.stringify(existing);
       Object.assign(existing, {
         name: config.name,
         description: config.description,
         guide: config.guide,
         license: config.license,
       });
-      previous.updatedAt = new Date().toISOString();
-      await writeFile(
-        new URL("catalog.json", root),
-        JSON.stringify(previous, null, 2) + "\n",
-      );
+      if (before !== JSON.stringify(existing)) {
+        previous.updatedAt = new Date().toISOString();
+        await writeFile(
+          new URL("catalog.json", root),
+          JSON.stringify(previous, null, 2) + "\n",
+        );
+      }
       console.log(config.id + ": current " + version);
       continue;
     }

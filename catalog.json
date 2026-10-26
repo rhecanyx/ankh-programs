@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T20:55:55.796Z",
+  "updatedAt": "2026-10-26T20:57:40.450Z",
   "programs": [
     {
       "id": "photocraft",
       "name": "PhotoCraft",
       "version": "0.16.0",
       "description": "Katmanlar ve PSD desteğiyle fotoğraf düzenleyici.",
-      "license": "MIT OR Apache-2.0",
       "guide": "Mac’te DMG’yi açıp PhotoCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+      "license": "MIT OR Apache-2.0",
       "upstream": "storytold/photocraft",
       "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/photocraft-v0.16.0",
       "assets": [
@@ -35,8 +35,8 @@
       "name": "VectorCraft",
       "version": "0.17.0",
       "description": "Vektör çizim ve illüstrasyon araçları.",
-      "license": "MIT OR Apache-2.0",
       "guide": "Mac’te DMG’yi açıp VectorCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+      "license": "MIT OR Apache-2.0",
       "upstream": "storytold/vectorcraft",
       "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/vectorcraft-v0.17.0",
       "assets": [
@@ -59,12 +59,40 @@
       ]
     },
     {
+      "id": "filmcraft",
+      "name": "FilmCraft",
+      "version": "0.13.0",
+      "description": "Video düzenleme ve kurgu araçları.",
+      "guide": "Mac’te DMG’yi açıp FilmCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+      "license": "MIT OR Apache-2.0",
+      "upstream": "storytold/filmcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/filmcraft-v0.13.0",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "filmcraft-0.13.0-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/filmcraft-v0.13.0/filmcraft-0.13.0-macos-universal.dmg",
+          "size": 103684923,
+          "sha256": "1313efde320c25361c1bd015c47d18cc4ad40c9215e1eabf2a8ec5db6a7396ed"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "filmcraft-0.13.0-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/filmcraft-v0.13.0/filmcraft-0.13.0-windows-x64.msi",
+          "size": 83537920,
+          "sha256": "6e9e2903ca47cbf677d598391e76ed862223a86c0d6d79da7a93a32455b5f593"
+        }
+      ]
+    },
+    {
       "id": "lightcraft",
       "name": "LightCraft",
       "version": "0.14.0",
       "description": "Fotoğraf işleme ve renk düzenleme araçları.",
-      "license": "MIT OR Apache-2.0",
       "guide": "Mac’te DMG’yi açıp LightCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+      "license": "MIT OR Apache-2.0",
       "upstream": "storytold/lightcraft",
       "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/lightcraft-v0.14.0",
       "assets": [
@@ -87,12 +115,68 @@
       ]
     },
     {
+      "id": "pdfcraft",
+      "name": "PDFCraft",
+      "version": "0.14.0",
+      "description": "PDF belgeleriyle çalışma araçları.",
+      "guide": "Mac’te DMG’yi açıp PDFCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+      "license": "MIT OR Apache-2.0",
+      "upstream": "storytold/pdfcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/pdfcraft-v0.14.0",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "pdfcraft-0.14.0-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/pdfcraft-v0.14.0/pdfcraft-0.14.0-macos-universal.dmg",
+          "size": 98841931,
+          "sha256": "f0bddea3f0d711470d95f714b23ccce61c38b2bbcca821d397ce8dbb0564cf74"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "pdfcraft-0.14.0-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/pdfcraft-v0.14.0/pdfcraft-0.14.0-windows-x64.msi",
+          "size": 73740288,
+          "sha256": "600f5745198096c91980855572e8d5f6e2302abd89aaa8fb1e74cb392c7e865f"
+        }
+      ]
+    },
+    {
+      "id": "effectcraft",
+      "name": "EffectCraft",
+      "version": "0.17.0",
+      "description": "Hareketli grafik ve görsel efekt araçları.",
+      "guide": "Mac’te DMG’yi açıp EffectCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+      "license": "MIT OR Apache-2.0",
+      "upstream": "storytold/effectcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/effectcraft-v0.17.0",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "effectcraft-0.17.0-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/effectcraft-v0.17.0/effectcraft-0.17.0-macos-universal.dmg",
+          "size": 66357060,
+          "sha256": "241ae2e72cefc7ae70f583017a8e6b7763702a24683dbd64849e568693f94bad"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "effectcraft-0.17.0-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/effectcraft-v0.17.0/effectcraft-0.17.0-windows-x64.msi",
+          "size": 51462144,
+          "sha256": "8f0c2e6f647a679d4075d365f863b9deab2d6ebcfa6bdd1c82826cb6816580ef"
+        }
+      ]
+    },
+    {
       "id": "designcraft",
       "name": "DesignCraft",
       "version": "0.13.0",
       "description": "Sayfa tasarımı ve yayın düzenleme araçları.",
-      "license": "MIT OR Apache-2.0",
       "guide": "Mac’te DMG’yi açıp DesignCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+      "license": "MIT OR Apache-2.0",
       "upstream": "storytold/designcraft",
       "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/designcraft-v0.13.0",
       "assets": [
@@ -111,6 +195,174 @@
           "url": "https://github.com/rhecanyx/ankh-programs/releases/download/designcraft-v0.13.0/designcraft-0.13.0-windows-x64.msi",
           "size": 89624576,
           "sha256": "84421b0b90a897cd35110cc9b3d3bca13c30b9298ac77f4e13eb9ec9978b20ce"
+        }
+      ]
+    },
+    {
+      "id": "figcraft",
+      "name": "FigCraft",
+      "version": "0.11.2",
+      "description": "Arayüz tasarımı araçları.",
+      "guide": "Mac’te DMG’yi açıp FigCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+      "license": "MIT OR Apache-2.0",
+      "upstream": "storytold/figcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/figcraft-v0.11.2",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "figcraft-0.11.2-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/figcraft-v0.11.2/figcraft-0.11.2-macos-universal.dmg",
+          "size": 97550182,
+          "sha256": "2a626afa9c65ad96a3d1eaaf8ef5fca4654b8a6b000d1c8a3a4c1ccc7c4376bc"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "figcraft-0.11.2-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/figcraft-v0.11.2/figcraft-0.11.2-windows-x64.msi",
+          "size": 71077888,
+          "sha256": "e2cb0f21d84c491a8f570d4f5d0f2f89dc2d53209a508399b080ee5f7525d712"
+        }
+      ]
+    },
+    {
+      "id": "wordcraft",
+      "name": "WordCraft",
+      "version": "0.11.0",
+      "description": "Metin belgesi oluşturma ve düzenleme araçları.",
+      "guide": "Mac’te DMG’yi açıp WordCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+      "license": "MIT OR Apache-2.0",
+      "upstream": "storytold/wordcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/wordcraft-v0.11.0",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "wordcraft-0.11.0-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/wordcraft-v0.11.0/wordcraft-0.11.0-macos-universal.dmg",
+          "size": 114368425,
+          "sha256": "0e2030b27157a42be151a28bae03a11589c08404d166d55d6d0bdded65b0d22b"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "wordcraft-0.11.0-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/wordcraft-v0.11.0/wordcraft-0.11.0-windows-x64.msi",
+          "size": 84500480,
+          "sha256": "fac76d185c3cd5990ceec2fd147748dcf4f2e289aa0085fecbcc7408cef65f87"
+        }
+      ]
+    },
+    {
+      "id": "soundcraft",
+      "name": "SoundCraft",
+      "version": "0.13.1",
+      "description": "Ses düzenleme araçları.",
+      "guide": "Mac’te DMG’yi açıp SoundCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+      "license": "MIT OR Apache-2.0",
+      "upstream": "storytold/soundcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/soundcraft-v0.13.1",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "soundcraft-0.13.1-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/soundcraft-v0.13.1/soundcraft-0.13.1-macos-universal.dmg",
+          "size": 25189549,
+          "sha256": "5cd4c45862fdc9ddc8c2a64e565d0a17e70f2f4d23aee57467a4812268143f4b"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "soundcraft-0.13.1-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/soundcraft-v0.13.1/soundcraft-0.13.1-windows-x64.msi",
+          "size": 12304384,
+          "sha256": "aabdad1afbf3b3717e77304e92d2c86ca3d141505f46612fa5300f2db00ea965"
+        }
+      ]
+    },
+    {
+      "id": "deckcraft",
+      "name": "DeckCraft",
+      "version": "0.11.1",
+      "description": "Sunum hazırlama araçları.",
+      "guide": "Mac’te DMG’yi açıp DeckCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+      "license": "MIT OR Apache-2.0",
+      "upstream": "storytold/deckcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/deckcraft-v0.11.1",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "deckcraft-0.11.1-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/deckcraft-v0.11.1/deckcraft-0.11.1-macos-universal.dmg",
+          "size": 87374766,
+          "sha256": "c0b4e89c004b31187832afce312f279f15f5adb7db61808db74608d822726f1d"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "deckcraft-0.11.1-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/deckcraft-v0.11.1/deckcraft-0.11.1-windows-x64.msi",
+          "size": 64397312,
+          "sha256": "92b629820c7fa213009c9105807653085b3c14aec0ab87fa7bc96b3eeaf3b33e"
+        }
+      ]
+    },
+    {
+      "id": "cadcraft",
+      "name": "CadCraft",
+      "version": "0.13.0",
+      "description": "Teknik çizim araçları.",
+      "guide": "Mac’te DMG’yi açıp CadCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+      "license": "MIT OR Apache-2.0",
+      "upstream": "storytold/cadcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/cadcraft-v0.13.0",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "cadcraft-0.13.0-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/cadcraft-v0.13.0/cadcraft-0.13.0-macos-universal.dmg",
+          "size": 72477065,
+          "sha256": "539f27c1fa2fe79fe2f1c562fe9eb07b1790ffd2cd7bf1e438e9c719383aeb29"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "cadcraft-0.13.0-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/cadcraft-v0.13.0/cadcraft-0.13.0-windows-x64.msi",
+          "size": 51941376,
+          "sha256": "f257fff4ca4f8a887a0906b7416e80911b73c7678da56a10176eee6ea1d253f3"
+        }
+      ]
+    },
+    {
+      "id": "gridcraft",
+      "name": "GridCraft",
+      "version": "0.12.1",
+      "description": "Elektronik tablo araçları.",
+      "guide": "Mac’te DMG’yi açıp GridCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+      "license": "MIT OR Apache-2.0",
+      "upstream": "storytold/gridcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/gridcraft-v0.12.1",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "gridcraft-0.12.1-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/gridcraft-v0.12.1/gridcraft-0.12.1-macos-universal.dmg",
+          "size": 26159221,
+          "sha256": "ee234f51e2e747dcf278fde984c86218fdfe2ff7188c01b699394fcaef4033be"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "gridcraft-0.12.1-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/gridcraft-v0.12.1/gridcraft-0.12.1-windows-x64.msi",
+          "size": 14905344,
+          "sha256": "036f271206da7bbb453b1be9fe98fefb419eac829315803315e88df9f1ff4a71"
         }
       ]
     }
