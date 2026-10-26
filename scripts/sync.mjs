@@ -4,8 +4,8 @@ import { join } from "node:path";
 import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
 const token = process.env.GITHUB_TOKEN;
-const repository = process.env.GITHUB_REPOSITORY || "cnahmetcn/ankh-programs";
-if (!token || repository !== "cnahmetcn/ankh-programs")
+const repository = process.env.GITHUB_REPOSITORY || "rhecanyx/ankh-programs";
+if (!token || repository !== "rhecanyx/ankh-programs")
   throw Error("Authorized repository/token required");
 const root = new URL("../", import.meta.url);
 const programs = JSON.parse(
