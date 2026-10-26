@@ -3,224 +3,260 @@
     "id": "photocraft",
     "name": "PhotoCraft",
     "upstream": "storytold/photocraft",
-    "description": "Photoshop",
+    "description": "Katmanlar ve PSD desteğiyle fotoğraf düzenleyici.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Dosyayı indirdikten sonra Mac’te DMG’yi açıp uygulamayı Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. PhotoCraft ayrı uygulama olarak açılır; Ankh hesabını kullanmaz. Proje erken alfa aşamasındadır.",
+    "guide": "Mac’te DMG’yi açıp PhotoCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
     "assets": [
       {
         "platform": "darwin",
         "arch": "universal",
         "suffix": "-macos-universal.dmg"
       },
-      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "suffix": "-windows-x64.msi"
+      }
     ]
   },
   {
     "id": "vectorcraft",
     "name": "VectorCraft",
     "upstream": "storytold/vectorcraft",
-    "description": "Illustrator",
+    "description": "Vektör çizim ve illüstrasyon araçları.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Dosyayı indirdikten sonra Mac’te DMG’yi açıp uygulamayı Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. VectorCraft ayrı uygulama olarak açılır; Ankh hesabını kullanmaz. Proje erken alfa aşamasındadır.",
+    "guide": "Mac’te DMG’yi açıp VectorCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
     "assets": [
       {
         "platform": "darwin",
         "arch": "universal",
         "suffix": "-macos-universal.dmg"
       },
-      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "suffix": "-windows-x64.msi"
+      }
     ]
   },
   {
     "id": "filmcraft",
     "name": "FilmCraft",
     "upstream": "storytold/filmcraft",
-    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "description": "Video düzenleme ve kurgu araçları.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Premiere Pro",
+    "guide": "Mac’te DMG’yi açıp FilmCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
     "assets": [
       {
         "platform": "darwin",
         "arch": "universal",
         "suffix": "-macos-universal.dmg"
       },
-      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
-    ]
-  },
-  {
-    "id": "filmcraft",
-    "name": "FilmCraft",
-    "upstream": "storytold/filmcraft",
-    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
-    "license": "MIT OR Apache-2.0",
-    "guide": "Premiere Pro",
-    "assets": [
       {
-        "platform": "darwin",
-        "arch": "universal",
-        "suffix": "-macos-universal.dmg"
-      },
-      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+        "platform": "win32",
+        "arch": "x64",
+        "suffix": "-windows-x64.msi"
+      }
     ]
   },
   {
     "id": "lightcraft",
     "name": "LightCraft",
     "upstream": "storytold/lightcraft",
-    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "description": "Fotoğraf işleme ve renk düzenleme araçları.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Lightroom",
+    "guide": "Mac’te DMG’yi açıp LightCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
     "assets": [
       {
         "platform": "darwin",
         "arch": "universal",
         "suffix": "-macos-universal.dmg"
       },
-      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "suffix": "-windows-x64.msi"
+      }
     ]
   },
   {
     "id": "pdfcraft",
     "name": "PDFCraft",
     "upstream": "storytold/pdfcraft",
-    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "description": "PDF belgeleriyle çalışma araçları.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Acrobat",
+    "guide": "Mac’te DMG’yi açıp PDFCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
     "assets": [
       {
         "platform": "darwin",
         "arch": "universal",
         "suffix": "-macos-universal.dmg"
       },
-      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "suffix": "-windows-x64.msi"
+      }
     ]
   },
   {
     "id": "effectcraft",
     "name": "EffectCraft",
     "upstream": "storytold/effectcraft",
-    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "description": "Hareketli grafik ve görsel efekt araçları.",
     "license": "MIT OR Apache-2.0",
-    "guide": "After Effects",
+    "guide": "Mac’te DMG’yi açıp EffectCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
     "assets": [
       {
         "platform": "darwin",
         "arch": "universal",
         "suffix": "-macos-universal.dmg"
       },
-      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "suffix": "-windows-x64.msi"
+      }
     ]
   },
   {
     "id": "designcraft",
     "name": "DesignCraft",
     "upstream": "storytold/designcraft",
-    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "description": "Sayfa tasarımı ve yayın düzenleme araçları.",
     "license": "MIT OR Apache-2.0",
-    "guide": "InDesign",
+    "guide": "Mac’te DMG’yi açıp DesignCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
     "assets": [
       {
         "platform": "darwin",
         "arch": "universal",
         "suffix": "-macos-universal.dmg"
       },
-      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "suffix": "-windows-x64.msi"
+      }
     ]
   },
   {
     "id": "figcraft",
     "name": "FigCraft",
     "upstream": "storytold/figcraft",
-    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "description": "Arayüz tasarımı araçları.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Figma",
+    "guide": "Mac’te DMG’yi açıp FigCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
     "assets": [
       {
         "platform": "darwin",
         "arch": "universal",
         "suffix": "-macos-universal.dmg"
       },
-      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "suffix": "-windows-x64.msi"
+      }
     ]
   },
   {
     "id": "wordcraft",
     "name": "WordCraft",
     "upstream": "storytold/wordcraft",
-    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "description": "Metin belgesi oluşturma ve düzenleme araçları.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Word",
+    "guide": "Mac’te DMG’yi açıp WordCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
     "assets": [
       {
         "platform": "darwin",
         "arch": "universal",
         "suffix": "-macos-universal.dmg"
       },
-      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "suffix": "-windows-x64.msi"
+      }
     ]
   },
   {
     "id": "soundcraft",
     "name": "SoundCraft",
     "upstream": "storytold/soundcraft",
-    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "description": "Ses düzenleme araçları.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Audition",
+    "guide": "Mac’te DMG’yi açıp SoundCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
     "assets": [
       {
         "platform": "darwin",
         "arch": "universal",
         "suffix": "-macos-universal.dmg"
       },
-      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "suffix": "-windows-x64.msi"
+      }
     ]
   },
   {
     "id": "deckcraft",
     "name": "DeckCraft",
     "upstream": "storytold/deckcraft",
-    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "description": "Sunum hazırlama araçları.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Powerpoint",
+    "guide": "Mac’te DMG’yi açıp DeckCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
     "assets": [
       {
         "platform": "darwin",
         "arch": "universal",
         "suffix": "-macos-universal.dmg"
       },
-      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "suffix": "-windows-x64.msi"
+      }
     ]
   },
   {
     "id": "cadcraft",
     "name": "CadCraft",
     "upstream": "storytold/cadcraft",
-    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "description": "Teknik çizim araçları.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Autocat",
+    "guide": "Mac’te DMG’yi açıp CadCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
     "assets": [
       {
         "platform": "darwin",
         "arch": "universal",
         "suffix": "-macos-universal.dmg"
       },
-      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "suffix": "-windows-x64.msi"
+      }
     ]
   },
   {
     "id": "gridcraft",
     "name": "GridCraft",
     "upstream": "storytold/gridcraft",
-    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "description": "Elektronik tablo araçları.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Excel",
+    "guide": "Mac’te DMG’yi açıp GridCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
     "assets": [
       {
         "platform": "darwin",
         "arch": "universal",
         "suffix": "-macos-universal.dmg"
       },
-      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "suffix": "-windows-x64.msi"
+      }
     ]
   }
 ]
