@@ -176,6 +176,20 @@ for (const config of programs) {
         "NOTICE",
         "ATTRIBUTION.md",
       ]) {
+        const present = execFileSync(
+          "git",
+          ["--git-dir", git, "ls-tree", "--name-only", commit, file],
+          { encoding: "utf8" },
+        ).trim();
+        if (!present && file === "ATTRIBUTION.md") {
+          await upload(
+            file,
+            Buffer.from(
+              `${config.name}: ${config.upstream} ${upstream.tag_name}\nUnmodified upstream binaries. Copyright and licensing remain with upstream contributors; see LICENSE-MIT, LICENSE-APACHE and NOTICE.\nSource: ${upstream.html_url}\n`,
+            ),
+          );
+          continue;
+        }
         const data = execFileSync("git", [
           "--git-dir",
           git,
