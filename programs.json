@@ -3,9 +3,217 @@
     "id": "photocraft",
     "name": "PhotoCraft",
     "upstream": "storytold/photocraft",
-    "description": "Katmanlar, maskeler ve PSD desteğiyle bağımsız fotoğraf düzenleyici.",
+    "description": "Photoshop",
     "license": "MIT OR Apache-2.0",
     "guide": "Dosyayı indirdikten sonra Mac’te DMG’yi açıp uygulamayı Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. PhotoCraft ayrı uygulama olarak açılır; Ankh hesabını kullanmaz. Proje erken alfa aşamasındadır.",
+    "assets": [
+      {
+        "platform": "darwin",
+        "arch": "universal",
+        "suffix": "-macos-universal.dmg"
+      },
+      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+    ]
+  },
+  {
+    "id": "vectorcraft",
+    "name": "VectorCraft",
+    "upstream": "storytold/vectorcraft",
+    "description": "Illustrator",
+    "license": "MIT OR Apache-2.0",
+    "guide": "Dosyayı indirdikten sonra Mac’te DMG’yi açıp uygulamayı Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. VectorCraft ayrı uygulama olarak açılır; Ankh hesabını kullanmaz. Proje erken alfa aşamasındadır.",
+    "assets": [
+      {
+        "platform": "darwin",
+        "arch": "universal",
+        "suffix": "-macos-universal.dmg"
+      },
+      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+    ]
+  },
+  {
+    "id": "filmcraft",
+    "name": "FilmCraft",
+    "upstream": "storytold/filmcraft",
+    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "license": "MIT OR Apache-2.0",
+    "guide": "Premiere Pro",
+    "assets": [
+      {
+        "platform": "darwin",
+        "arch": "universal",
+        "suffix": "-macos-universal.dmg"
+      },
+      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+    ]
+  },
+  {
+    "id": "filmcraft",
+    "name": "FilmCraft",
+    "upstream": "storytold/filmcraft",
+    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "license": "MIT OR Apache-2.0",
+    "guide": "Premiere Pro",
+    "assets": [
+      {
+        "platform": "darwin",
+        "arch": "universal",
+        "suffix": "-macos-universal.dmg"
+      },
+      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+    ]
+  },
+  {
+    "id": "lightcraft",
+    "name": "LightCraft",
+    "upstream": "storytold/lightcraft",
+    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "license": "MIT OR Apache-2.0",
+    "guide": "Lightroom",
+    "assets": [
+      {
+        "platform": "darwin",
+        "arch": "universal",
+        "suffix": "-macos-universal.dmg"
+      },
+      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+    ]
+  },
+  {
+    "id": "pdfcraft",
+    "name": "PDFCraft",
+    "upstream": "storytold/pdfcraft",
+    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "license": "MIT OR Apache-2.0",
+    "guide": "Acrobat",
+    "assets": [
+      {
+        "platform": "darwin",
+        "arch": "universal",
+        "suffix": "-macos-universal.dmg"
+      },
+      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+    ]
+  },
+  {
+    "id": "effectcraft",
+    "name": "EffectCraft",
+    "upstream": "storytold/effectcraft",
+    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "license": "MIT OR Apache-2.0",
+    "guide": "After Effects",
+    "assets": [
+      {
+        "platform": "darwin",
+        "arch": "universal",
+        "suffix": "-macos-universal.dmg"
+      },
+      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+    ]
+  },
+  {
+    "id": "designcraft",
+    "name": "DesignCraft",
+    "upstream": "storytold/designcraft",
+    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "license": "MIT OR Apache-2.0",
+    "guide": "InDesign",
+    "assets": [
+      {
+        "platform": "darwin",
+        "arch": "universal",
+        "suffix": "-macos-universal.dmg"
+      },
+      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+    ]
+  },
+  {
+    "id": "figcraft",
+    "name": "FigCraft",
+    "upstream": "storytold/figcraft",
+    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "license": "MIT OR Apache-2.0",
+    "guide": "Figma",
+    "assets": [
+      {
+        "platform": "darwin",
+        "arch": "universal",
+        "suffix": "-macos-universal.dmg"
+      },
+      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+    ]
+  },
+  {
+    "id": "wordcraft",
+    "name": "WordCraft",
+    "upstream": "storytold/wordcraft",
+    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "license": "MIT OR Apache-2.0",
+    "guide": "Word",
+    "assets": [
+      {
+        "platform": "darwin",
+        "arch": "universal",
+        "suffix": "-macos-universal.dmg"
+      },
+      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+    ]
+  },
+  {
+    "id": "soundcraft",
+    "name": "SoundCraft",
+    "upstream": "storytold/soundcraft",
+    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "license": "MIT OR Apache-2.0",
+    "guide": "Audition",
+    "assets": [
+      {
+        "platform": "darwin",
+        "arch": "universal",
+        "suffix": "-macos-universal.dmg"
+      },
+      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+    ]
+  },
+  {
+    "id": "deckcraft",
+    "name": "DeckCraft",
+    "upstream": "storytold/deckcraft",
+    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "license": "MIT OR Apache-2.0",
+    "guide": "Powerpoint",
+    "assets": [
+      {
+        "platform": "darwin",
+        "arch": "universal",
+        "suffix": "-macos-universal.dmg"
+      },
+      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+    ]
+  },
+  {
+    "id": "cadcraft",
+    "name": "CadCraft",
+    "upstream": "storytold/cadcraft",
+    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "license": "MIT OR Apache-2.0",
+    "guide": "Autocat",
+    "assets": [
+      {
+        "platform": "darwin",
+        "arch": "universal",
+        "suffix": "-macos-universal.dmg"
+      },
+      { "platform": "win32", "arch": "x64", "suffix": "-windows-x64.msi" }
+    ]
+  },
+  {
+    "id": "gridcraft",
+    "name": "GridCraft",
+    "upstream": "storytold/gridcraft",
+    "description": "Profesyonel illüstratörlerin beklediği kalem, paneller ve kısayollar, size ayak uyduran yerel bir uygulamada. Açık kaynaklı ve tarayıcınızda da kullanılabilir.",
+    "license": "MIT OR Apache-2.0",
+    "guide": "Excel",
     "assets": [
       {
         "platform": "darwin",
