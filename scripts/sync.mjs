@@ -117,7 +117,7 @@ for (const config of programs) {
         platform: target.platform,
         arch: target.arch,
         name: a.name,
-        url: saved.browser_download_url,
+        url: `https://github.com/${repository}/releases/download/${tag}/${a.name}`,
         size: bytes.length,
         sha256: sha,
       });
