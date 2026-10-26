@@ -166,10 +166,46 @@ for (const config of programs) {
       execFileSync("git", ["--git-dir", git, "bundle", "verify", bundle], {
         stdio: "ignore",
       });
-      await upload(
-        `${config.id}-source-v${version}.bundle`,
-        await readFile(bundle),
-      );
+      const sourceName = `${config.id}-source-v${version}.bundle`;
+      const oldSource = release.assets?.find((a) => a.name === sourceName);
+      if (oldSource) {
+        // Git pack ordering can differ between mirror clones. Verify and retain the already uploaded source snapshot.
+        const response = await fetch(oldSource.url, {
+          headers: { ...headers, Accept: "application/octet-stream" },
+        });
+        if (!response.ok) throw Error("Source resume download failed");
+        const bytes = Buffer.from(await response.arrayBuffer());
+        if (
+          oldSource.digest !==
+          "sha256:" + createHash("sha256").update(bytes).digest("hex")
+        )
+          throw Error("Archived source integrity failure");
+        const archived = join(dir, "archived.bundle");
+        await writeFile(archived, bytes);
+        execFileSync("git", ["--git-dir", git, "bundle", "verify", archived], {
+          stdio: "ignore",
+        });
+        execFileSync(
+          "git",
+          [
+            "--git-dir",
+            git,
+            "fetch",
+            archived,
+            `refs/tags/${upstream.tag_name}`,
+          ],
+          { stdio: "ignore" },
+        );
+        const archivedCommit = execFileSync(
+          "git",
+          ["--git-dir", git, "rev-parse", "FETCH_HEAD^{commit}"],
+          { encoding: "utf8" },
+        ).trim();
+        if (archivedCommit !== commit)
+          throw Error("Archived source tag changed");
+      } else {
+        await upload(sourceName, await readFile(bundle));
+      }
       for (const file of [
         "LICENSE-MIT",
         "LICENSE-APACHE",
