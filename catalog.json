@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T17:16:30.499Z",
+  "updatedAt": "2026-10-26T20:51:30.289Z",
   "programs": [
     {
       "id": "photocraft",
       "name": "PhotoCraft",
       "version": "0.16.0",
-      "description": "Katmanlar, maskeler ve PSD desteğiyle bağımsız fotoğraf düzenleyici.",
+      "description": "Katmanlar ve PSD desteğiyle fotoğraf düzenleyici.",
       "license": "MIT OR Apache-2.0",
-      "guide": "Dosyayı indirdikten sonra Mac’te DMG’yi açıp uygulamayı Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. PhotoCraft ayrı uygulama olarak açılır; Ankh hesabını kullanmaz. Proje erken alfa aşamasındadır.",
+      "guide": "Mac’te DMG’yi açıp PhotoCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
       "upstream": "storytold/photocraft",
       "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/photocraft-v0.16.0",
       "assets": [
