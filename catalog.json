@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T20:51:30.289Z",
+  "updatedAt": "2026-10-26T20:55:55.796Z",
   "programs": [
     {
       "id": "photocraft",
@@ -27,6 +27,90 @@
           "url": "https://github.com/rhecanyx/ankh-programs/releases/download/photocraft-v0.16.0/photocraft-0.16.0-windows-x64.msi",
           "size": 74760192,
           "sha256": "1a073b3ce410cd68bed8c1e5d63f825a8cb578c78106bd54e598d8b07edb6982"
+        }
+      ]
+    },
+    {
+      "id": "vectorcraft",
+      "name": "VectorCraft",
+      "version": "0.17.0",
+      "description": "Vektör çizim ve illüstrasyon araçları.",
+      "license": "MIT OR Apache-2.0",
+      "guide": "Mac’te DMG’yi açıp VectorCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+      "upstream": "storytold/vectorcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/vectorcraft-v0.17.0",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "vectorcraft-0.17.0-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/vectorcraft-v0.17.0/vectorcraft-0.17.0-macos-universal.dmg",
+          "size": 144749321,
+          "sha256": "0bd3f5ea47293cd6a55001463089bea3c6d98e5ba657fa006799c2be8787505a"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "vectorcraft-0.17.0-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/vectorcraft-v0.17.0/vectorcraft-0.17.0-windows-x64.msi",
+          "size": 106770432,
+          "sha256": "861f4e9fe943dacddfd30bc6512a20a4db2fbc554a6daa4101595c2fc85d11c1"
+        }
+      ]
+    },
+    {
+      "id": "lightcraft",
+      "name": "LightCraft",
+      "version": "0.14.0",
+      "description": "Fotoğraf işleme ve renk düzenleme araçları.",
+      "license": "MIT OR Apache-2.0",
+      "guide": "Mac’te DMG’yi açıp LightCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+      "upstream": "storytold/lightcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/lightcraft-v0.14.0",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "lightcraft-0.14.0-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/lightcraft-v0.14.0/lightcraft-0.14.0-macos-universal.dmg",
+          "size": 114839456,
+          "sha256": "cde8591da93f7b5aa7ad09137cc93c1ebf3b4748fe89e477bb036263d7c93e75"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "lightcraft-0.14.0-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/lightcraft-v0.14.0/lightcraft-0.14.0-windows-x64.msi",
+          "size": 91385856,
+          "sha256": "e6af550325aeb61d576da85eab114a8896c85fab77c522ffae8991aa844ae46f"
+        }
+      ]
+    },
+    {
+      "id": "designcraft",
+      "name": "DesignCraft",
+      "version": "0.13.0",
+      "description": "Sayfa tasarımı ve yayın düzenleme araçları.",
+      "license": "MIT OR Apache-2.0",
+      "guide": "Mac’te DMG’yi açıp DesignCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+      "upstream": "storytold/designcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/designcraft-v0.13.0",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "designcraft-0.13.0-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/designcraft-v0.13.0/designcraft-0.13.0-macos-universal.dmg",
+          "size": 120766273,
+          "sha256": "14d020b90df9178de290d624e012bdceb353b1595ff5b7991d4896b8f42ea03b"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "designcraft-0.13.0-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/designcraft-v0.13.0/designcraft-0.13.0-windows-x64.msi",
+          "size": 89624576,
+          "sha256": "84421b0b90a897cd35110cc9b3d3bca13c30b9298ac77f4e13eb9ec9978b20ce"
         }
       ]
     }
