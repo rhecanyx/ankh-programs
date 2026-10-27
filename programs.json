@@ -258,5 +258,47 @@
         "suffix": "-windows-x64.msi"
       }
     ]
+  },
+  {
+    "id": "voicestudio",
+    "name": "VoiceStudio",
+    "upstream": "debpalash/VoiceStudio",
+    "archiveMode": "github-release",
+    "description": "Yerel yapay zekâ ses stüdyosudur. Metni seslendirme, izinli ses örneğinden ses klonlama, ses tasarlama, konuşmayı yazıya çevirme ve video dublajı gibi işler sunar. Ses işleme kendi bilgisayarında yapılır; hız seçilen modele, belleğe ve ekran kartına bağlıdır. Model ağırlıkları uygulama paketinden ayrı indirilir ve farklı lisanslara tabi olabilir. Ankh yalnız özgün kurulum dosyasını indirir; ses işleme veya model kurulumu yapmaz.",
+    "license": "AGPL-3.0",
+    "guide": "Apple Silicon Mac: macOS 13.3 veya üzeri gerekir; DMG’yi açıp VoiceStudio’yu Applications’a taşı. Intel Mac’te yerel yapay zekâ arka ucu desteklenmediğinden bu arşivde Intel paketi yoktur. Windows: Windows 10/11 x64 EXE kurulumunu çalıştır. Yaklaşık 10 GB boş alan ayır; bazı modeller daha fazla yer ve bellek ister. İlk açılış internetle Python ortamını, FFmpeg’i ve modelleri hazırlar; paketli sürüm için bunları elle kurman gerekmez. NVIDIA GPU isteğe bağlıdır; CPU ile daha yavaş çalışabilir. Bazı modeller ayrı hesap veya erişim onayı isteyebilir. Yalnız kullanma iznin olan sesleri klonla. Kaynak kod AGPL-3.0; model/çıktı hakları ayrıca değerlendirilir.",
+    "assets": [
+      {
+        "platform": "darwin",
+        "arch": "arm64",
+        "suffix": "-mac-arm64.dmg"
+      },
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "suffix": "-win-x64.exe"
+      }
+    ]
+  },
+  {
+    "id": "ghidra",
+    "name": "Ghidra",
+    "upstream": "NationalSecurityAgency/ghidra",
+    "archiveMode": "github-release",
+    "description": "Derlenmiş programları incelemek için kullanılan açık kaynaklı tersine mühendislik ve yazılım analiz ortamıdır. Makine kodunu assembly görünümünde açma, C benzeri sözde kod üretme, fonksiyonlar ve çağrı ilişkileri arasında gezinme, dize/başvuru arama ve analiz betikleri çalıştırma özellikleri vardır. Kaynak kodu kayıp programları anlamak, dosya biçimlerini araştırmak ve izinli güvenlik incelemeleri için kullanılır. ZIP içindeki program ayrı çalışır; Ankh analiz motorunu içermez.",
+    "license": "Apache-2.0; bileşen lisansları pakette",
+    "guide": "Bu sürüm JDK 25 (64 bit) gerektirir; yalnız JRE yeterli değildir. Resmî JDK dağıtımını kurduktan sonra terminalde java -version ile sürümü kontrol et. PUBLIC ZIP’i yeni bir klasöre çıkar; eski Ghidra kurulumunun üzerine açma. Mac/Linux’ta ghidraRun, Windows’ta ghidraRun.bat dosyasını başlat. Aynı çok platformlu ZIP Mac ve Windows için sunulur. DMG veya klasik kurulum sihirbazı yoktur. Mac mimarisine uygun JDK kullan; bazı isteğe bağlı native özellikler ek derleme araçları isteyebilir. İlk analiz büyük dosyalarda zaman ve bellek tüketebilir. Kaynak kod, lisans/NOTICE ve üçüncü taraf bildirimleri arşivde korunur.",
+    "assets": [
+      {
+        "platform": "darwin",
+        "arch": "universal",
+        "suffix": "PUBLIC_20261016.zip"
+      },
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "suffix": "PUBLIC_20261016.zip"
+      }
+    ]
   }
 ]

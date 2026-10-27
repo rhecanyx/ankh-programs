@@ -23,6 +23,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+      - name: Diğer doğrulanmış GitHub paketleri
+        if: always()
+        run: node scripts/sync-github.mjs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
       - name: Kataloğu kaydet
         if: always()
         run: |

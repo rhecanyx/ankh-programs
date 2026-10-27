@@ -41,6 +41,7 @@ for (const config of programs) {
 }
 let failures = 0;
 for (const config of programs) {
+  if (config.archiveMode === "github-release") continue;
   try {
     if (
       !/^[a-z][a-z0-9-]{0,49}$/.test(config.id) ||
