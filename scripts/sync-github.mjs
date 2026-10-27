@@ -57,6 +57,20 @@ for (const config of configs.filter(
       tag = `${config.id}-v${version}`;
     const previous = catalog.programs.find((p) => p.id === config.id);
     if (previous?.version === version) {
+      const before = JSON.stringify(previous);
+      Object.assign(previous, {
+        name: config.name,
+        description: config.description,
+        guide: config.guide,
+        license: config.license,
+      });
+      if (before !== JSON.stringify(previous)) {
+        catalog.updatedAt = new Date().toISOString();
+        await writeFile(
+          new URL("catalog.json", root),
+          JSON.stringify(catalog, null, 2) + "\n",
+        );
+      }
       console.log(config.id + ": current " + version);
       continue;
     }

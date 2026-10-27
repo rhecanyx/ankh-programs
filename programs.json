@@ -3,9 +3,9 @@
     "id": "photocraft",
     "name": "PhotoCraft",
     "upstream": "storytold/photocraft",
-    "description": "Katmanlar ve PSD desteğiyle fotoğraf düzenleyici.",
+    "description": "Fotoğraf ve piksel tabanlı görseller üzerinde çalışmak için açık kaynaklı masaüstü düzenleyicisidir. Katmanlar, maskeler, seçimler, düzenleme panelleri ve filtrelerle bir görselin farklı bölümlerini ayrı ayrı işleyebilirsin. Fotoğraf rötuşu, sosyal medya görseli ve birden çok görseli birleştirme gibi işler için uygundur. Photoshop benzeri bir çalışma düzeni sunar; bu, Photoshop’un kendisi olduğu veya tüm dosyaları/eklentileri eksiksiz desteklediği anlamına gelmez.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Mac’te DMG’yi açıp PhotoCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+    "guide": "Mac’te DMG’yi açıp PhotoCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
     "assets": [
       {
         "platform": "darwin",
@@ -23,9 +23,9 @@
     "id": "vectorcraft",
     "name": "VectorCraft",
     "upstream": "storytold/vectorcraft",
-    "description": "Vektör çizim ve illüstrasyon araçları.",
+    "description": "Vektör tabanlı illüstrasyon ve çizim hazırlamaya yönelik açık kaynaklı uygulamadır. Piksel fotoğrafı boyamak yerine çizgi, eğri, şekil ve yollarla çalışmak isteyenler için tasarlanmıştır. Logo taslakları, ikonlar, teknik olmayan diyagramlar ve farklı boyutlarda kullanılacak çizimler için değerlendirilebilir. Komut API’si üzerinden otomasyon imkânı da sunar. Bir fotoğraf editörü değildir; kendi belge ve dışa aktarma seçenekleriyle ayrı çalışır.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Mac’te DMG’yi açıp VectorCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+    "guide": "Mac’te DMG’yi açıp VectorCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
     "assets": [
       {
         "platform": "darwin",
@@ -43,9 +43,9 @@
     "id": "filmcraft",
     "name": "FilmCraft",
     "upstream": "storytold/filmcraft",
-    "description": "Video düzenleme ve kurgu araçları.",
+    "description": "Video görüntülerini bir zaman çizelgesinde düzenleyen doğrusal olmayan kurgu uygulamasıdır. Klipleri sıraya dizme, kesme, sesle eşleştirme ve birden çok görüntü katmanını bir araya getirme gibi kurgu işleri için tasarlanmıştır. Tanıtım filmi, kısa video veya daha uzun bir kurgu projesi üzerinde çalışırken kullanılabilir. Proje erken geliştirme aşamasındadır; codec ve dosya uyumluluğunu kendi malzemenle kontrol etmek gerekir.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Mac’te DMG’yi açıp FilmCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+    "guide": "Mac’te DMG’yi açıp FilmCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
     "assets": [
       {
         "platform": "darwin",
@@ -63,9 +63,9 @@
     "id": "lightcraft",
     "name": "LightCraft",
     "upstream": "storytold/lightcraft",
-    "description": "Fotoğraf işleme ve renk düzenleme araçları.",
+    "description": "Fotoğraf geliştirme ve renk düzenlemeye odaklanan dijital karanlık oda uygulamasıdır. Düzenlemeleri özgün dosyayı değiştirmeden tutan, tahribatsız bir çalışma yaklaşımı sunar. Pozlama, renk ve görüntü görünümü üzerinde çalışmak isteyen fotoğrafçılar için tasarlanmıştır. Piksel piksel çizim ve karmaşık montaj yerine fotoğrafın genel işlenmesine yöneliktir; özgün fotoğraflarının ayrıca yedeğini tutmalısın.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Mac’te DMG’yi açıp LightCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+    "guide": "Mac’te DMG’yi açıp LightCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
     "assets": [
       {
         "platform": "darwin",
@@ -83,9 +83,9 @@
     "id": "pdfcraft",
     "name": "PDFCraft",
     "upstream": "storytold/pdfcraft",
-    "description": "PDF belgeleriyle çalışma araçları.",
+    "description": "PDF belgelerini açma, görüntüleme ve inceleme için geliştirilen açık kaynaklı uygulamadır. Yazı tipleri, farklı alfabeler, görseller ve sayfa bileşenleri içeren PDF’leri masaüstünde ele almak için kullanılabilir. Bir kelime işlemci veya Acrobat’ın tüm özelliklerini birebir sunan bir ürün olarak düşünülmemelidir. Özellikle karmaşık veya önemli belgelerde görüntüleme ve düzenleme sonuçlarını özgün dosyayla karşılaştırmak gerekir.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Mac’te DMG’yi açıp PDFCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+    "guide": "Mac’te DMG’yi açıp PDFCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
     "assets": [
       {
         "platform": "darwin",
@@ -103,9 +103,9 @@
     "id": "effectcraft",
     "name": "EffectCraft",
     "upstream": "storytold/effectcraft",
-    "description": "Hareketli grafik ve görsel efekt araçları.",
+    "description": "Hareketli grafik ve görüntü birleştirme projeleri için katman tabanlı kompozisyon uygulamasıdır. Katmanlar, anahtar kareler, efektler, ifadeler, 3B kameralar ve render kuyruğu gibi yapılarla animasyonlu sahneler hazırlamaya yöneliktir. Başlık animasyonları, görsel efekt denemeleri ve birden fazla görsel öğeyi zaman içinde hareketlendirme işleri için kullanılabilir. Klasik video kurgu programından farklı olarak kompozisyon ve animasyon üzerinde yoğunlaşır.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Mac’te DMG’yi açıp EffectCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+    "guide": "Mac’te DMG’yi açıp EffectCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
     "assets": [
       {
         "platform": "darwin",
@@ -123,9 +123,9 @@
     "id": "designcraft",
     "name": "DesignCraft",
     "upstream": "storytold/designcraft",
-    "description": "Sayfa tasarımı ve yayın düzenleme araçları.",
+    "description": "Çok sayfalı belge tasarımı ve masaüstü yayıncılığa yönelik açık kaynaklı uygulamadır. Metin ve görsellerin sayfa üzerindeki yerleşimini düzenleyerek broşür, dergi sayfası veya benzeri yayın taslakları hazırlamak için tasarlanmıştır. Bir kelime işlemciden farklı olarak sayfa kompozisyonunu öne çıkarır. Baskı veya teslim öncesinde yazı tiplerini, sayfa ölçülerini ve dışa aktarılan dosyayı ayrıca kontrol etmelisin.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Mac’te DMG’yi açıp DesignCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+    "guide": "Mac’te DMG’yi açıp DesignCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
     "assets": [
       {
         "platform": "darwin",
@@ -143,9 +143,9 @@
     "id": "figcraft",
     "name": "FigCraft",
     "upstream": "storytold/figcraft",
-    "description": "Arayüz tasarımı araçları.",
+    "description": "Arayüz ve ekran tasarımı hazırlamak için geliştirilen yerel tasarım uygulamasıdır. Araç çubuğu, katman paneli ve tasarım özellikleriyle ekran öğelerini bir belge üzerinde düzenlemeye yöneliktir. Web sitesi veya uygulama ekranlarının görsel taslaklarını oluşturmak için değerlendirilebilir. Yerel belgelerle çevrimdışı çalışmayı hedefler; Ankh’taki ortak notlar sistemiyle bağlı değildir ve Figma’nın bulut özelliklerini otomatik olarak sağlamaz.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Mac’te DMG’yi açıp FigCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+    "guide": "Mac’te DMG’yi açıp FigCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
     "assets": [
       {
         "platform": "darwin",
@@ -163,9 +163,9 @@
     "id": "wordcraft",
     "name": "WordCraft",
     "upstream": "storytold/wordcraft",
-    "description": "Metin belgesi oluşturma ve düzenleme araçları.",
+    "description": "Metin belgeleri hazırlamak ve düzenlemek için açık kaynaklı kelime işlemcidir. Şerit menü, stiller, tablolar, değişiklik izleme, başvurular ve adres mektup birleştirme gibi belge iş akışları sunar. DOCX dosyalarını okuyup yazabilir. Mektup, rapor ve benzeri belgeler için kullanılabilir; karmaşık Word belgelerinde sayfa düzeni, font ve özel özellik uyumluluğunu teslimden önce kontrol etmek gerekir.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Mac’te DMG’yi açıp WordCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+    "guide": "Mac’te DMG’yi açıp WordCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
     "assets": [
       {
         "platform": "darwin",
@@ -183,9 +183,9 @@
     "id": "soundcraft",
     "name": "SoundCraft",
     "upstream": "storytold/soundcraft",
-    "description": "Ses düzenleme araçları.",
+    "description": "Çok kanallı ses kaydı ve düzenleme için dijital ses çalışma istasyonudur. Ses kanalları, mikser, eklentiler, yönlendirmeler, otomasyon ve MIDI gibi müzik/ses üretim iş akışlarını bir araya getirir. Podcast düzenleme, ses katmanlarını birleştirme veya müzik projesi hazırlama için değerlendirilebilir. Ses üretim donanımı, sürücüler ve üçüncü taraf eklentilerin uyumluluğu işletim sistemine göre değişebilir.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Mac’te DMG’yi açıp SoundCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+    "guide": "Mac’te DMG’yi açıp SoundCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
     "assets": [
       {
         "platform": "darwin",
@@ -203,9 +203,9 @@
     "id": "deckcraft",
     "name": "DeckCraft",
     "upstream": "storytold/deckcraft",
-    "description": "Sunum hazırlama araçları.",
+    "description": "Slayt tabanlı sunum hazırlama ve tam ekran sunma uygulamasıdır. Tema, yerleşim, şekil, görsel, tablo, grafik, geçiş ve animasyonlarla bir sunum oluşturabilirsin. PPTX dosyalarını açıp kaydetmeyi destekler. İş veya eğitim sunumları için kullanılabilir; başka programdan gelen karmaşık sunumlarda fontları, yerleşimi ve animasyonları sunumdan önce gözden geçirmek gerekir.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Mac’te DMG’yi açıp DeckCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+    "guide": "Mac’te DMG’yi açıp DeckCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
     "assets": [
       {
         "platform": "darwin",
@@ -223,9 +223,9 @@
     "id": "cadcraft",
     "name": "CadCraft",
     "upstream": "storytold/cadcraft",
-    "description": "Teknik çizim araçları.",
+    "description": "Bilgisayar destekli teknik çizim iş akışlarına yönelik açık kaynaklı CAD uygulamasıdır. Komut satırı, nesne yakalama, katmanlar, ölçülendirme, taramalar, bloklar ve DXF çizimleri gibi yapılarla çalışmayı hedefler. Ölçülü plan ve çizim taslakları için değerlendirilebilir. AutoCAD’in kendisi değildir; dosya biçimi, ölçü birimi ve çizim özelliklerinin senin iş akışınla uyumunu ayrıca kontrol etmelisin.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Mac’te DMG’yi açıp CadCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+    "guide": "Mac’te DMG’yi açıp CadCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
     "assets": [
       {
         "platform": "darwin",
@@ -243,9 +243,9 @@
     "id": "gridcraft",
     "name": "GridCraft",
     "upstream": "storytold/gridcraft",
-    "description": "Elektronik tablo araçları.",
+    "description": "Satır, sütun ve hücrelerle veri düzenlemek için açık kaynaklı elektronik tablo uygulamasıdır. Formül çubuğu, sayfa sekmeleri, hücre seçimi ve doldurma gibi tanıdık tablo iş akışlarına odaklanır. Listeler, kişisel takip tabloları ve hesaplamalı belgeler hazırlamak için kullanılabilir. Excel’in tüm makro ve özel fonksiyonlarını birebir desteklediği varsayılmamalı; önemli hesaplamaları ve aktarılan dosyaları karşılaştırmak gerekir.",
     "license": "MIT OR Apache-2.0",
-    "guide": "Mac’te DMG’yi açıp GridCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Ankh’tan bağımsız açılır. İnternetle çalışan özellikler ayrıca hizmet erişimi isteyebilir; proje erken geliştirme aşamasındadır.",
+    "guide": "Mac’te DMG’yi açıp GridCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
     "assets": [
       {
         "platform": "darwin",
@@ -292,12 +292,12 @@
       {
         "platform": "darwin",
         "arch": "universal",
-        "suffix": "PUBLIC_20261016.zip"
+        "suffix": ".zip"
       },
       {
         "platform": "win32",
         "arch": "x64",
-        "suffix": "PUBLIC_20261016.zip"
+        "suffix": ".zip"
       }
     ]
   }
