@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T20:57:40.450Z",
+  "updatedAt": "2026-10-27T16:18:05.117Z",
   "programs": [
     {
       "id": "photocraft",
@@ -363,6 +363,62 @@
           "url": "https://github.com/rhecanyx/ankh-programs/releases/download/gridcraft-v0.12.1/gridcraft-0.12.1-windows-x64.msi",
           "size": 14905344,
           "sha256": "036f271206da7bbb453b1be9fe98fefb419eac829315803315e88df9f1ff4a71"
+        }
+      ]
+    },
+    {
+      "id": "voicestudio",
+      "name": "VoiceStudio",
+      "version": "0.5.7",
+      "description": "Yerel yapay zekâ ses stüdyosudur. Metni seslendirme, izinli ses örneğinden ses klonlama, ses tasarlama, konuşmayı yazıya çevirme ve video dublajı gibi işler sunar. Ses işleme kendi bilgisayarında yapılır; hız seçilen modele, belleğe ve ekran kartına bağlıdır. Model ağırlıkları uygulama paketinden ayrı indirilir ve farklı lisanslara tabi olabilir. Ankh yalnız özgün kurulum dosyasını indirir; ses işleme veya model kurulumu yapmaz.",
+      "guide": "Apple Silicon Mac: macOS 13.3 veya üzeri gerekir; DMG’yi açıp VoiceStudio’yu Applications’a taşı. Intel Mac’te yerel yapay zekâ arka ucu desteklenmediğinden bu arşivde Intel paketi yoktur. Windows: Windows 10/11 x64 EXE kurulumunu çalıştır. Yaklaşık 10 GB boş alan ayır; bazı modeller daha fazla yer ve bellek ister. İlk açılış internetle Python ortamını, FFmpeg’i ve modelleri hazırlar; paketli sürüm için bunları elle kurman gerekmez. NVIDIA GPU isteğe bağlıdır; CPU ile daha yavaş çalışabilir. Bazı modeller ayrı hesap veya erişim onayı isteyebilir. Yalnız kullanma iznin olan sesleri klonla. Kaynak kod AGPL-3.0; model/çıktı hakları ayrıca değerlendirilir.",
+      "license": "AGPL-3.0",
+      "upstream": "debpalash/VoiceStudio",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/voicestudio-v0.5.7",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "arm64",
+          "name": "VoiceStudio-0.5.7-mac-arm64.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/voicestudio-v0.5.7/VoiceStudio-0.5.7-mac-arm64.dmg",
+          "size": 280523075,
+          "sha256": "8db7a16f35af1e4eaca25c389d376acc86b3885f30d1982f5fd6497953f888a0"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "VoiceStudio-0.5.7-win-x64.exe",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/voicestudio-v0.5.7/VoiceStudio-0.5.7-win-x64.exe",
+          "size": 222263756,
+          "sha256": "76c6385d404ae9f11b9e47d42996432ea4cd6c065afb06718c4842b39020cd80"
+        }
+      ]
+    },
+    {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.2.0",
+      "description": "Derlenmiş programları incelemek için kullanılan açık kaynaklı tersine mühendislik ve yazılım analiz ortamıdır. Makine kodunu assembly görünümünde açma, C benzeri sözde kod üretme, fonksiyonlar ve çağrı ilişkileri arasında gezinme, dize/başvuru arama ve analiz betikleri çalıştırma özellikleri vardır. Kaynak kodu kayıp programları anlamak, dosya biçimlerini araştırmak ve izinli güvenlik incelemeleri için kullanılır. ZIP içindeki program ayrı çalışır; Ankh analiz motorunu içermez.",
+      "guide": "Bu sürüm JDK 25 (64 bit) gerektirir; yalnız JRE yeterli değildir. Resmî JDK dağıtımını kurduktan sonra terminalde java -version ile sürümü kontrol et. PUBLIC ZIP’i yeni bir klasöre çıkar; eski Ghidra kurulumunun üzerine açma. Mac/Linux’ta ghidraRun, Windows’ta ghidraRun.bat dosyasını başlat. Aynı çok platformlu ZIP Mac ve Windows için sunulur. DMG veya klasik kurulum sihirbazı yoktur. Mac mimarisine uygun JDK kullan; bazı isteğe bağlı native özellikler ek derleme araçları isteyebilir. İlk analiz büyük dosyalarda zaman ve bellek tüketebilir. Kaynak kod, lisans/NOTICE ve üçüncü taraf bildirimleri arşivde korunur.",
+      "license": "Apache-2.0; bileşen lisansları pakette",
+      "upstream": "NationalSecurityAgency/ghidra",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/ghidra-v12.2.0",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "ghidra_12.2_PUBLIC_20261016.zip",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/ghidra-v12.2.0/ghidra_12.2_PUBLIC_20261016.zip",
+          "size": 569712708,
+          "sha256": "2c2cd776db3c1f6a097ba418922378ac3649cadd5e844a6f5f088ae628a7be67"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "ghidra_12.2_PUBLIC_20261016.zip",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/ghidra-v12.2.0/ghidra_12.2_PUBLIC_20261016.zip",
+          "size": 569712708,
+          "sha256": "2c2cd776db3c1f6a097ba418922378ac3649cadd5e844a6f5f088ae628a7be67"
         }
       ]
     }
