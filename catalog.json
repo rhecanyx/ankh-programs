@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T14:36:39.023Z",
+  "updatedAt": "2026-11-04T14:43:50.365Z",
   "programs": [
     {
       "id": "voicestudio",
@@ -171,34 +171,6 @@
       ]
     },
     {
-      "id": "pdfcraft",
-      "name": "PDFCraft",
-      "version": "0.18.0",
-      "description": "PDF belgelerini açma, görüntüleme ve inceleme için geliştirilen açık kaynaklı uygulamadır. Yazı tipleri, farklı alfabeler, görseller ve sayfa bileşenleri içeren PDF’leri masaüstünde ele almak için kullanılabilir. Bir kelime işlemci veya Acrobat’ın tüm özelliklerini birebir sunan bir ürün olarak düşünülmemelidir. Özellikle karmaşık veya önemli belgelerde görüntüleme ve düzenleme sonuçlarını özgün dosyayla karşılaştırmak gerekir.",
-      "license": "MIT OR Apache-2.0",
-      "guide": "Mac’te DMG’yi açıp PDFCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
-      "upstream": "storytold/pdfcraft",
-      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/pdfcraft-v0.18.0",
-      "assets": [
-        {
-          "platform": "darwin",
-          "arch": "universal",
-          "name": "pdfcraft-0.18.0-macos-universal.dmg",
-          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/pdfcraft-v0.18.0/pdfcraft-0.18.0-macos-universal.dmg",
-          "size": 123491344,
-          "sha256": "2c7be0e8300e3bad93ccd390eae16ec342bcd935b12dc282fda3f0589bc7ce72"
-        },
-        {
-          "platform": "win32",
-          "arch": "x64",
-          "name": "pdfcraft-0.18.0-windows-x64.msi",
-          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/pdfcraft-v0.18.0/pdfcraft-0.18.0-windows-x64.msi",
-          "size": 92430336,
-          "sha256": "f6a3b00d5c38c1b9c71fbef6ce0ecceb356d471789a6e4541df6f90c18b5afaf"
-        }
-      ]
-    },
-    {
       "id": "effectcraft",
       "name": "EffectCraft",
       "version": "0.21.0",
@@ -279,34 +251,6 @@
           "url": "https://github.com/rhecanyx/ankh-programs/releases/download/figcraft-v0.15.0/figcraft-0.15.0-windows-x64.msi",
           "size": 80793600,
           "sha256": "f23ae60b6c823ce9d04115ed24837204f33a25cdf3efb2e97b218f36bd240fd4"
-        }
-      ]
-    },
-    {
-      "id": "wordcraft",
-      "name": "WordCraft",
-      "version": "0.15.0",
-      "description": "Metin belgeleri hazırlamak ve düzenlemek için açık kaynaklı kelime işlemcidir. Şerit menü, stiller, tablolar, değişiklik izleme, başvurular ve adres mektup birleştirme gibi belge iş akışları sunar. DOCX dosyalarını okuyup yazabilir. Mektup, rapor ve benzeri belgeler için kullanılabilir; karmaşık Word belgelerinde sayfa düzeni, font ve özel özellik uyumluluğunu teslimden önce kontrol etmek gerekir.",
-      "license": "MIT OR Apache-2.0",
-      "guide": "Mac’te DMG’yi açıp WordCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
-      "upstream": "storytold/wordcraft",
-      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/wordcraft-v0.15.0",
-      "assets": [
-        {
-          "platform": "darwin",
-          "arch": "universal",
-          "name": "wordcraft-0.15.0-macos-universal.dmg",
-          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/wordcraft-v0.15.0/wordcraft-0.15.0-macos-universal.dmg",
-          "size": 127102949,
-          "sha256": "e07c3f58383ed1e3455b0b81e95f4d124b6bd395365074280686918d04478815"
-        },
-        {
-          "platform": "win32",
-          "arch": "x64",
-          "name": "wordcraft-0.15.0-windows-x64.msi",
-          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/wordcraft-v0.15.0/wordcraft-0.15.0-windows-x64.msi",
-          "size": 91947008,
-          "sha256": "a2ca3ef922ec99b759f4c2bf9ddfeca2521b86def12a64c4807acdafdb76a004"
         }
       ]
     },
@@ -419,6 +363,62 @@
           "url": "https://github.com/rhecanyx/ankh-programs/releases/download/gridcraft-v0.16.0/gridcraft-0.16.0-windows-x64.msi",
           "size": 41095168,
           "sha256": "c5364482c42902605c1c29a317165d0e3c2eba55acbe0de15d97150def37b8de"
+        }
+      ]
+    },
+    {
+      "id": "pdfcraft",
+      "name": "PDFCraft",
+      "version": "0.18.1",
+      "description": "PDF belgelerini açma, görüntüleme ve inceleme için geliştirilen açık kaynaklı uygulamadır. Yazı tipleri, farklı alfabeler, görseller ve sayfa bileşenleri içeren PDF’leri masaüstünde ele almak için kullanılabilir. Bir kelime işlemci veya Acrobat’ın tüm özelliklerini birebir sunan bir ürün olarak düşünülmemelidir. Özellikle karmaşık veya önemli belgelerde görüntüleme ve düzenleme sonuçlarını özgün dosyayla karşılaştırmak gerekir.",
+      "license": "MIT OR Apache-2.0",
+      "guide": "Mac’te DMG’yi açıp PDFCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
+      "upstream": "storytold/pdfcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/pdfcraft-v0.18.1",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "pdfcraft-0.18.1-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/pdfcraft-v0.18.1/pdfcraft-0.18.1-macos-universal.dmg",
+          "size": 128005424,
+          "sha256": "55f84be56388d69f24df22522f6d424f8d8e69529db669ce08ea198455e08ceb"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "pdfcraft-0.18.1-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/pdfcraft-v0.18.1/pdfcraft-0.18.1-windows-x64.msi",
+          "size": 93761536,
+          "sha256": "13640a9ee7e7d741085935db2f4c626850122a300fe23c00492d21f973728e0f"
+        }
+      ]
+    },
+    {
+      "id": "wordcraft",
+      "name": "WordCraft",
+      "version": "0.15.1",
+      "description": "Metin belgeleri hazırlamak ve düzenlemek için açık kaynaklı kelime işlemcidir. Şerit menü, stiller, tablolar, değişiklik izleme, başvurular ve adres mektup birleştirme gibi belge iş akışları sunar. DOCX dosyalarını okuyup yazabilir. Mektup, rapor ve benzeri belgeler için kullanılabilir; karmaşık Word belgelerinde sayfa düzeni, font ve özel özellik uyumluluğunu teslimden önce kontrol etmek gerekir.",
+      "license": "MIT OR Apache-2.0",
+      "guide": "Mac’te DMG’yi açıp WordCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
+      "upstream": "storytold/wordcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/wordcraft-v0.15.1",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "wordcraft-0.15.1-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/wordcraft-v0.15.1/wordcraft-0.15.1-macos-universal.dmg",
+          "size": 128335727,
+          "sha256": "8ee59436328e24518386c6cf1407f7c6c081fcaca703ce5e5310938af7dab12f"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "wordcraft-0.15.1-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/wordcraft-v0.15.1/wordcraft-0.15.1-windows-x64.msi",
+          "size": 92377088,
+          "sha256": "f4b2bed40acc31ae81db7f163f2820425eaa0611adc6ce64a73d7b61e4d59be4"
         }
       ]
     }
