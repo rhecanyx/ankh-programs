@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T16:45:49.562Z",
+  "updatedAt": "2026-11-10T15:02:14.106Z",
   "programs": [
     {
       "id": "voicestudio",
@@ -199,34 +199,6 @@
       ]
     },
     {
-      "id": "effectcraft",
-      "name": "EffectCraft",
-      "version": "0.23.0",
-      "description": "Hareketli grafik ve görüntü birleştirme projeleri için katman tabanlı kompozisyon uygulamasıdır. Katmanlar, anahtar kareler, efektler, ifadeler, 3B kameralar ve render kuyruğu gibi yapılarla animasyonlu sahneler hazırlamaya yöneliktir. Başlık animasyonları, görsel efekt denemeleri ve birden fazla görsel öğeyi zaman içinde hareketlendirme işleri için kullanılabilir. Klasik video kurgu programından farklı olarak kompozisyon ve animasyon üzerinde yoğunlaşır.",
-      "license": "MIT OR Apache-2.0",
-      "guide": "Mac’te DMG’yi açıp EffectCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
-      "upstream": "storytold/effectcraft",
-      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/effectcraft-v0.23.0",
-      "assets": [
-        {
-          "platform": "darwin",
-          "arch": "universal",
-          "name": "effectcraft-0.23.0-macos-universal.dmg",
-          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/effectcraft-v0.23.0/effectcraft-0.23.0-macos-universal.dmg",
-          "size": 81776223,
-          "sha256": "434b5d646d874f3743ebdd922cd3540ff6a758baf27ecc9e1ab3455d8f64768c"
-        },
-        {
-          "platform": "win32",
-          "arch": "x64",
-          "name": "effectcraft-0.23.0-windows-x64.msi",
-          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/effectcraft-v0.23.0/effectcraft-0.23.0-windows-x64.msi",
-          "size": 63619072,
-          "sha256": "17c45826a3cc4057f81d4d4c16fe2fc6767dfe0fb759a5d29852f1eb3588cefd"
-        }
-      ]
-    },
-    {
       "id": "designcraft",
       "name": "DesignCraft",
       "version": "0.19.0",
@@ -419,6 +391,34 @@
           "url": "https://github.com/rhecanyx/ankh-programs/releases/download/gridcraft-v0.18.0/gridcraft-0.18.0-windows-x64.msi",
           "size": 41652224,
           "sha256": "13631beae0b757db425c7c017a1b9026ba3579f8b193f0b10bd3cd246dfb8a14"
+        }
+      ]
+    },
+    {
+      "id": "effectcraft",
+      "name": "EffectCraft",
+      "version": "0.23.1",
+      "description": "Hareketli grafik ve görüntü birleştirme projeleri için katman tabanlı kompozisyon uygulamasıdır. Katmanlar, anahtar kareler, efektler, ifadeler, 3B kameralar ve render kuyruğu gibi yapılarla animasyonlu sahneler hazırlamaya yöneliktir. Başlık animasyonları, görsel efekt denemeleri ve birden fazla görsel öğeyi zaman içinde hareketlendirme işleri için kullanılabilir. Klasik video kurgu programından farklı olarak kompozisyon ve animasyon üzerinde yoğunlaşır.",
+      "license": "MIT OR Apache-2.0",
+      "guide": "Mac’te DMG’yi açıp EffectCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
+      "upstream": "storytold/effectcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/effectcraft-v0.23.1",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "effectcraft-0.23.1-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/effectcraft-v0.23.1/effectcraft-0.23.1-macos-universal.dmg",
+          "size": 82074483,
+          "sha256": "10703ae0b8b279241e7a87b69bfa5ae0213cc21a67a04ea978e84309f6e8e2f8"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "effectcraft-0.23.1-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/effectcraft-v0.23.1/effectcraft-0.23.1-windows-x64.msi",
+          "size": 63840256,
+          "sha256": "4ccfc6efe361402e64fedaf9c00439b4651d44721b8409ced647a0adf72fe198"
         }
       ]
     }
