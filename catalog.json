@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T15:36:28.785Z",
+  "updatedAt": "2026-11-23T18:28:41.520Z",
   "programs": [
     {
       "id": "ghidra",
@@ -139,34 +139,6 @@
           "url": "https://github.com/rhecanyx/ankh-programs/releases/download/lightcraft-v0.21.1/lightcraft-0.21.1-windows-x64.msi",
           "size": 99999744,
           "sha256": "16b8f4e12c93120b2db5a5f567798d1d1f33e2f55ddee901f1c8c0f072558a25"
-        }
-      ]
-    },
-    {
-      "id": "pdfcraft",
-      "name": "PDFCraft",
-      "version": "0.21.1",
-      "description": "PDF belgelerini açma, görüntüleme ve inceleme için geliştirilen açık kaynaklı uygulamadır. Yazı tipleri, farklı alfabeler, görseller ve sayfa bileşenleri içeren PDF’leri masaüstünde ele almak için kullanılabilir. Bir kelime işlemci veya Acrobat’ın tüm özelliklerini birebir sunan bir ürün olarak düşünülmemelidir. Özellikle karmaşık veya önemli belgelerde görüntüleme ve düzenleme sonuçlarını özgün dosyayla karşılaştırmak gerekir.",
-      "license": "MIT OR Apache-2.0",
-      "guide": "Mac’te DMG’yi açıp PDFCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
-      "upstream": "storytold/pdfcraft",
-      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/pdfcraft-v0.21.1",
-      "assets": [
-        {
-          "platform": "darwin",
-          "arch": "universal",
-          "name": "pdfcraft-0.21.1-macos-universal.dmg",
-          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/pdfcraft-v0.21.1/pdfcraft-0.21.1-macos-universal.dmg",
-          "size": 135468910,
-          "sha256": "1adc9bf3d319e707e9247004db05a32a059634e3710fe79bc14f92f689ca4d4a"
-        },
-        {
-          "platform": "win32",
-          "arch": "x64",
-          "name": "pdfcraft-0.21.1-windows-x64.msi",
-          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/pdfcraft-v0.21.1/pdfcraft-0.21.1-windows-x64.msi",
-          "size": 99958784,
-          "sha256": "b28c4c8aa88910293f7a09a82e893db74759b9afc7860fc114c0cba56cf0830a"
         }
       ]
     },
@@ -419,6 +391,34 @@
           "url": "https://github.com/rhecanyx/ankh-programs/releases/download/voicestudio-v0.5.8/VoiceStudio-0.5.8-win-x64.exe",
           "size": 232785545,
           "sha256": "11238cb8b08ea38b9b4e8e3050cd950ee2a2d3af1856d54e5ce6fb877444ad34"
+        }
+      ]
+    },
+    {
+      "id": "pdfcraft",
+      "name": "PDFCraft",
+      "version": "0.22.0",
+      "description": "PDF belgelerini açma, görüntüleme ve inceleme için geliştirilen açık kaynaklı uygulamadır. Yazı tipleri, farklı alfabeler, görseller ve sayfa bileşenleri içeren PDF’leri masaüstünde ele almak için kullanılabilir. Bir kelime işlemci veya Acrobat’ın tüm özelliklerini birebir sunan bir ürün olarak düşünülmemelidir. Özellikle karmaşık veya önemli belgelerde görüntüleme ve düzenleme sonuçlarını özgün dosyayla karşılaştırmak gerekir.",
+      "license": "MIT OR Apache-2.0",
+      "guide": "Mac’te DMG’yi açıp PDFCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
+      "upstream": "storytold/pdfcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/pdfcraft-v0.22.0",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "pdfcraft-0.22.0-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/pdfcraft-v0.22.0/pdfcraft-0.22.0-macos-universal.dmg",
+          "size": 145835486,
+          "sha256": "ad45ca52a793c7cda1bae1acb6757b5ee12f07bfaec22ce4344e5e5460340634"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "pdfcraft-0.22.0-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/pdfcraft-v0.22.0/pdfcraft-0.22.0-windows-x64.msi",
+          "size": 107872256,
+          "sha256": "52303376a76c8031c7c23a2f70bbdba65285bdb115c404b2e8d7bc7003879151"
         }
       ]
     }
