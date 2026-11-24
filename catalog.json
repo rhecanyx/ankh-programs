@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T18:28:41.520Z",
+  "updatedAt": "2026-11-24T17:57:08.801Z",
   "programs": [
     {
       "id": "ghidra",
@@ -139,62 +139,6 @@
           "url": "https://github.com/rhecanyx/ankh-programs/releases/download/lightcraft-v0.21.1/lightcraft-0.21.1-windows-x64.msi",
           "size": 99999744,
           "sha256": "16b8f4e12c93120b2db5a5f567798d1d1f33e2f55ddee901f1c8c0f072558a25"
-        }
-      ]
-    },
-    {
-      "id": "effectcraft",
-      "name": "EffectCraft",
-      "version": "0.24.1",
-      "description": "Hareketli grafik ve görüntü birleştirme projeleri için katman tabanlı kompozisyon uygulamasıdır. Katmanlar, anahtar kareler, efektler, ifadeler, 3B kameralar ve render kuyruğu gibi yapılarla animasyonlu sahneler hazırlamaya yöneliktir. Başlık animasyonları, görsel efekt denemeleri ve birden fazla görsel öğeyi zaman içinde hareketlendirme işleri için kullanılabilir. Klasik video kurgu programından farklı olarak kompozisyon ve animasyon üzerinde yoğunlaşır.",
-      "license": "MIT OR Apache-2.0",
-      "guide": "Mac’te DMG’yi açıp EffectCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
-      "upstream": "storytold/effectcraft",
-      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/effectcraft-v0.24.1",
-      "assets": [
-        {
-          "platform": "darwin",
-          "arch": "universal",
-          "name": "effectcraft-0.24.1-macos-universal.dmg",
-          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/effectcraft-v0.24.1/effectcraft-0.24.1-macos-universal.dmg",
-          "size": 82579624,
-          "sha256": "22d0111d1daaa7142ee6266a2b8174d2f4d375c4c12e0dfc40a04db3dfb35851"
-        },
-        {
-          "platform": "win32",
-          "arch": "x64",
-          "name": "effectcraft-0.24.1-windows-x64.msi",
-          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/effectcraft-v0.24.1/effectcraft-0.24.1-windows-x64.msi",
-          "size": 64159744,
-          "sha256": "4bda68bafb4325f96e794b81819a1e6c4b2a42c012c3c82aa2ce8a668b70b295"
-        }
-      ]
-    },
-    {
-      "id": "designcraft",
-      "name": "DesignCraft",
-      "version": "0.20.1",
-      "description": "Çok sayfalı belge tasarımı ve masaüstü yayıncılığa yönelik açık kaynaklı uygulamadır. Metin ve görsellerin sayfa üzerindeki yerleşimini düzenleyerek broşür, dergi sayfası veya benzeri yayın taslakları hazırlamak için tasarlanmıştır. Bir kelime işlemciden farklı olarak sayfa kompozisyonunu öne çıkarır. Baskı veya teslim öncesinde yazı tiplerini, sayfa ölçülerini ve dışa aktarılan dosyayı ayrıca kontrol etmelisin.",
-      "license": "MIT OR Apache-2.0",
-      "guide": "Mac’te DMG’yi açıp DesignCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
-      "upstream": "storytold/designcraft",
-      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/designcraft-v0.20.1",
-      "assets": [
-        {
-          "platform": "darwin",
-          "arch": "universal",
-          "name": "designcraft-0.20.1-macos-universal.dmg",
-          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/designcraft-v0.20.1/designcraft-0.20.1-macos-universal.dmg",
-          "size": 249161928,
-          "sha256": "f45b2bf5543c1d8c37d09a971e99420d6ef3d97b6ebe33e31b36d2a3c39eb0c2"
-        },
-        {
-          "platform": "win32",
-          "arch": "x64",
-          "name": "designcraft-0.20.1-windows-x64.msi",
-          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/designcraft-v0.20.1/designcraft-0.20.1-windows-x64.msi",
-          "size": 99581952,
-          "sha256": "358fcfb94311dec9a3fabe5c437ca732de8c46ba7b6fd27a7be3e5dfe017175a"
         }
       ]
     },
@@ -419,6 +363,62 @@
           "url": "https://github.com/rhecanyx/ankh-programs/releases/download/pdfcraft-v0.22.0/pdfcraft-0.22.0-windows-x64.msi",
           "size": 107872256,
           "sha256": "52303376a76c8031c7c23a2f70bbdba65285bdb115c404b2e8d7bc7003879151"
+        }
+      ]
+    },
+    {
+      "id": "effectcraft",
+      "name": "EffectCraft",
+      "version": "0.25.1",
+      "description": "Hareketli grafik ve görüntü birleştirme projeleri için katman tabanlı kompozisyon uygulamasıdır. Katmanlar, anahtar kareler, efektler, ifadeler, 3B kameralar ve render kuyruğu gibi yapılarla animasyonlu sahneler hazırlamaya yöneliktir. Başlık animasyonları, görsel efekt denemeleri ve birden fazla görsel öğeyi zaman içinde hareketlendirme işleri için kullanılabilir. Klasik video kurgu programından farklı olarak kompozisyon ve animasyon üzerinde yoğunlaşır.",
+      "license": "MIT OR Apache-2.0",
+      "guide": "Mac’te DMG’yi açıp EffectCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
+      "upstream": "storytold/effectcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/effectcraft-v0.25.1",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "effectcraft-0.25.1-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/effectcraft-v0.25.1/effectcraft-0.25.1-macos-universal.dmg",
+          "size": 90485479,
+          "sha256": "c54579332a66d8b0f3b9e01d8a712039516eed9f624bde9cefe6d134b3caec28"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "effectcraft-0.25.1-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/effectcraft-v0.25.1/effectcraft-0.25.1-windows-x64.msi",
+          "size": 70451200,
+          "sha256": "6dc25ea09779707783c64d74c17234f4f937970ccc5193383ba90c39907becf2"
+        }
+      ]
+    },
+    {
+      "id": "designcraft",
+      "name": "DesignCraft",
+      "version": "0.21.1",
+      "description": "Çok sayfalı belge tasarımı ve masaüstü yayıncılığa yönelik açık kaynaklı uygulamadır. Metin ve görsellerin sayfa üzerindeki yerleşimini düzenleyerek broşür, dergi sayfası veya benzeri yayın taslakları hazırlamak için tasarlanmıştır. Bir kelime işlemciden farklı olarak sayfa kompozisyonunu öne çıkarır. Baskı veya teslim öncesinde yazı tiplerini, sayfa ölçülerini ve dışa aktarılan dosyayı ayrıca kontrol etmelisin.",
+      "license": "MIT OR Apache-2.0",
+      "guide": "Mac’te DMG’yi açıp DesignCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
+      "upstream": "storytold/designcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/designcraft-v0.21.1",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "designcraft-0.21.1-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/designcraft-v0.21.1/designcraft-0.21.1-macos-universal.dmg",
+          "size": 276940818,
+          "sha256": "9964d13556c7e0f03abf6f4ab20bde8a9d6c9db744d4d3cc6c67753862064f00"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "designcraft-0.21.1-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/designcraft-v0.21.1/designcraft-0.21.1-windows-x64.msi",
+          "size": 108253184,
+          "sha256": "204c0fdc89fcd101f550b2bbd4bcf22b775939fffb255e0c0be0dbff76a45676"
         }
       ]
     }
