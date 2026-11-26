@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T17:57:08.801Z",
+  "updatedAt": "2026-11-26T17:05:24.189Z",
   "programs": [
     {
       "id": "ghidra",
@@ -171,34 +171,6 @@
       ]
     },
     {
-      "id": "wordcraft",
-      "name": "WordCraft",
-      "version": "0.18.1",
-      "description": "Metin belgeleri hazırlamak ve düzenlemek için açık kaynaklı kelime işlemcidir. Şerit menü, stiller, tablolar, değişiklik izleme, başvurular ve adres mektup birleştirme gibi belge iş akışları sunar. DOCX dosyalarını okuyup yazabilir. Mektup, rapor ve benzeri belgeler için kullanılabilir; karmaşık Word belgelerinde sayfa düzeni, font ve özel özellik uyumluluğunu teslimden önce kontrol etmek gerekir.",
-      "license": "MIT OR Apache-2.0",
-      "guide": "Mac’te DMG’yi açıp WordCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
-      "upstream": "storytold/wordcraft",
-      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/wordcraft-v0.18.1",
-      "assets": [
-        {
-          "platform": "darwin",
-          "arch": "universal",
-          "name": "wordcraft-0.18.1-macos-universal.dmg",
-          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/wordcraft-v0.18.1/wordcraft-0.18.1-macos-universal.dmg",
-          "size": 132189627,
-          "sha256": "89f6e0a910f8ad5a815d8024c79324d205b56fcd2e05deed010e9016f5813dec"
-        },
-        {
-          "platform": "win32",
-          "arch": "x64",
-          "name": "wordcraft-0.18.1-windows-x64.msi",
-          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/wordcraft-v0.18.1/wordcraft-0.18.1-windows-x64.msi",
-          "size": 95039488,
-          "sha256": "c766eaa9e4d20fab3dc9772d0b90119abd61b0a0586289090dd32a91cb0d5e2c"
-        }
-      ]
-    },
-    {
       "id": "soundcraft",
       "name": "SoundCraft",
       "version": "0.20.1",
@@ -223,34 +195,6 @@
           "url": "https://github.com/rhecanyx/ankh-programs/releases/download/soundcraft-v0.20.1/soundcraft-0.20.1-windows-x64.msi",
           "size": 15441920,
           "sha256": "dc2d31d05fd6ccfdd2aac8651b1dcabc12032a7eab34665d48af59d40c945dfe"
-        }
-      ]
-    },
-    {
-      "id": "deckcraft",
-      "name": "DeckCraft",
-      "version": "0.18.1",
-      "description": "Slayt tabanlı sunum hazırlama ve tam ekran sunma uygulamasıdır. Tema, yerleşim, şekil, görsel, tablo, grafik, geçiş ve animasyonlarla bir sunum oluşturabilirsin. PPTX dosyalarını açıp kaydetmeyi destekler. İş veya eğitim sunumları için kullanılabilir; başka programdan gelen karmaşık sunumlarda fontları, yerleşimi ve animasyonları sunumdan önce gözden geçirmek gerekir.",
-      "license": "MIT OR Apache-2.0",
-      "guide": "Mac’te DMG’yi açıp DeckCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
-      "upstream": "storytold/deckcraft",
-      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/deckcraft-v0.18.1",
-      "assets": [
-        {
-          "platform": "darwin",
-          "arch": "universal",
-          "name": "deckcraft-0.18.1-macos-universal.dmg",
-          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/deckcraft-v0.18.1/deckcraft-0.18.1-macos-universal.dmg",
-          "size": 112719319,
-          "sha256": "3321d11f6353b3ff9de328f21407d7527f1f9029c83dab4e3ab734f516d3a055"
-        },
-        {
-          "platform": "win32",
-          "arch": "x64",
-          "name": "deckcraft-0.18.1-windows-x64.msi",
-          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/deckcraft-v0.18.1/deckcraft-0.18.1-windows-x64.msi",
-          "size": 82989056,
-          "sha256": "a8553fc7400c8087d55ace4e17ad00148646ba970c7a4749e718ca2f77384e13"
         }
       ]
     },
@@ -419,6 +363,62 @@
           "url": "https://github.com/rhecanyx/ankh-programs/releases/download/designcraft-v0.21.1/designcraft-0.21.1-windows-x64.msi",
           "size": 108253184,
           "sha256": "204c0fdc89fcd101f550b2bbd4bcf22b775939fffb255e0c0be0dbff76a45676"
+        }
+      ]
+    },
+    {
+      "id": "wordcraft",
+      "name": "WordCraft",
+      "version": "0.19.1",
+      "description": "Metin belgeleri hazırlamak ve düzenlemek için açık kaynaklı kelime işlemcidir. Şerit menü, stiller, tablolar, değişiklik izleme, başvurular ve adres mektup birleştirme gibi belge iş akışları sunar. DOCX dosyalarını okuyup yazabilir. Mektup, rapor ve benzeri belgeler için kullanılabilir; karmaşık Word belgelerinde sayfa düzeni, font ve özel özellik uyumluluğunu teslimden önce kontrol etmek gerekir.",
+      "license": "MIT OR Apache-2.0",
+      "guide": "Mac’te DMG’yi açıp WordCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
+      "upstream": "storytold/wordcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/wordcraft-v0.19.1",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "wordcraft-0.19.1-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/wordcraft-v0.19.1/wordcraft-0.19.1-macos-universal.dmg",
+          "size": 144499906,
+          "sha256": "df13cabf63bb2591045ebf6782c17440e7ecee9556550d6dd2affecd983825b2"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "wordcraft-0.19.1-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/wordcraft-v0.19.1/wordcraft-0.19.1-windows-x64.msi",
+          "size": 103383040,
+          "sha256": "526abab4619d19ee432a834673044dc19f6ee2eac8f0f0bec6e9f6bf06cb7661"
+        }
+      ]
+    },
+    {
+      "id": "deckcraft",
+      "name": "DeckCraft",
+      "version": "0.19.1",
+      "description": "Slayt tabanlı sunum hazırlama ve tam ekran sunma uygulamasıdır. Tema, yerleşim, şekil, görsel, tablo, grafik, geçiş ve animasyonlarla bir sunum oluşturabilirsin. PPTX dosyalarını açıp kaydetmeyi destekler. İş veya eğitim sunumları için kullanılabilir; başka programdan gelen karmaşık sunumlarda fontları, yerleşimi ve animasyonları sunumdan önce gözden geçirmek gerekir.",
+      "license": "MIT OR Apache-2.0",
+      "guide": "Mac’te DMG’yi açıp DeckCraft uygulamasını Applications klasörüne taşı. Windows’ta MSI kurulumunu çalıştır. Mac paketi Intel ve Apple Silicon içindir; Windows paketi x64 içindir. Program Ankh’tan bağımsız açılır ve kendi dosya/ayarlarını kullanır. Ek hesap, font, medya, eklenti veya çevrimiçi hizmet gerektiren işlevler ayrıca kurulum isteyebilir. Bu projeler erken geliştirme aşamasındadır; ilk kullanımdan önce örnek dosyayla dene ve özgün belgelerini koru. Arşivlenen paket değiştirilmeden alınmıştır; Ankh tarafından yeniden derlenmemiştir.",
+      "upstream": "storytold/deckcraft",
+      "releaseUrl": "https://github.com/rhecanyx/ankh-programs/releases/tag/deckcraft-v0.19.1",
+      "assets": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "name": "deckcraft-0.19.1-macos-universal.dmg",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/deckcraft-v0.19.1/deckcraft-0.19.1-macos-universal.dmg",
+          "size": 114480941,
+          "sha256": "a5233f28b031b74edc4a07df2a0068d43b82ccadfdac865f145765d28b2ce746"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "name": "deckcraft-0.19.1-windows-x64.msi",
+          "url": "https://github.com/rhecanyx/ankh-programs/releases/download/deckcraft-v0.19.1/deckcraft-0.19.1-windows-x64.msi",
+          "size": 84463616,
+          "sha256": "fdaa2672dab8f9bfa7ef31b60d0f28997f8e3c22f779b16aa2ad123ca75b6b40"
         }
       ]
     }
